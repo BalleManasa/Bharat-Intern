@@ -1,49 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Wizard</title>
-    <meta name="google-site-verification" content="iNzSj2wvdEOVu1PtrK5FfEiu_teOG2LQn5i3kg-xozQ" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balle Manasa |Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
     <div class="container">
-        <h1 class="heading"> Temperature Converter </h1>
-        <div class="temp-container">
-            <label for="Celcius">Celcius</label>
-            <input 
-            onchange ="computeTemp(event)"
-            type="number" 
-            name="Celcius" 
-            id="Celcius" 
-            class="Celcius" 
-            placeholder="Enter Temperature in Celcius"/>    
-        </div>
-        <div class="temp-container">
-            <label for="fahre">Fahrenheit</label>
-            <input 
-            onchange="computeTemp(event)"
-            type="number" 
-            name="Fahrenheit" 
-            id="Fahrenheit" 
-            class="Fahrenheit" 
-            placeholder="Enter Temperature in Fahrenheit"/>    
-        </div>
-        <div class="temp-container">
-            <label for="Kelvin">Kelvin</label>
-            <input 
-            onchange="computeTemp(event)"
-            type="number" 
-            name="Kelvin" 
-            id="Kelvin" 
-            class="Kelvin" 
-            placeholder="Enter Temperature in Kelvin"/>    
-        </div>
+      <!-- <h1 class="logo">Balle Manasa</h1> -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li> 
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    
-    
-    <script src="./script.js"></script>
+  </nav>
+  <!-- Hero Section -->
+
+
+      <h1 class="hero-title">Balle Manasa</h1>
+      <p class="hero-subtitle"> || Frontend Development || Python || C Language</p>
+      <a href="#contact" class="cta-button">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-description">I am an enthusiastic 2nd year student at Mallareddy Institute Of Technology and Science
+        India,
+        pursuing B.Tech in Computer Science and Engineering. I have a good foundation in programming languages
+        including C, Python, HTML, CSS, and JavaScript. I'm currently learning about app development and can't
+        wait to put my knowledge to use creating fresh, cutting-edge apps. In addition to my technical abilities, I
+        have a fundamental grasp of Photoshop and Java.
+        <br><br>I am always seeking opportunities to grow and expand my knowledge. Various programmes that let me
+        develop new
+        abilities and work with people who share their interests and knowledge are also appealing to me. I like to take
+        part in online competitions and challenges outside of my schooling to hone my talents.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li><button class="button skill">Python</button></li>
+          <img src="https://freepngimg.com/thumb/python_logo/6-2-python-logo-free-png-image.png">
+        <li><button class="button skill">HTML</button></li>
+        <img src="https://mir-s3-cdn-cf.behance.net/user/230/793e4e5644135.56740c49eb765.png">
+        <li><button class="button skill">CSS</button></li>
+        <img src="https://png.pngitem.com/pimgs/s/198-1985002_css3-logo-hd-png-download.png">
+        <li><button class="button skill">JavaScript</button></li>
+        <img src="https://img1.freepng.es/20180609/zbg/kisspng-javascript-computer-programming-scripting-language-java-ee-connector-architecture-5b1bf779eefcf8.5779990615285594819789.jpg">
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-description">The Netflix Clone is a web application that aims to replicate the popular
+            streaming platform, Netflix. It provides users with an user-friendly interface where they can watch
+            unlimited movies and TV shows from an extensive library. The homepage of the Netflix Clone
+            showcases featured content, popular shows to encourage users to join and get
+            started.</p>
+          <!-- Added the "button" class -->
+        </div>
+        <div class="project">
+          <h3 class="project-title">Temperature Convertor</h3>
+          <p class="project-description">The Temperature Converter website is a simple yet powerful tool designed to
+            allow users to convert temperatures between different units. It provides a user-friendly interface where
+            users can input a temperature value and select the units for both input and output. The website instantly
+            calculates and displays the converted temperature.</p>
+          <!-- Added the "button" class -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Accompishments Section-->
+  <section id="Accomplishments"class="Accomplishments">
+    <div class="container">
+      <h2 class=""section.title">Accompishments</h2>
+      <div class="Accompishments-grid">
+        <div class="Accompishments">
+          <h3 class="Accomplishments-title">Tech Hunt</h3>
+          <p class="Accompishments-description">I have received an participation certificate from our college  2-day National Level Hackathon and Technical Fest</p>
+          <img src="Tech hunt.jpg"
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-form">
+        <h3 class="form-title">Get in touch</h3>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Balle Manasa. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Colors</title>
+  <style>
+    html{
+      font-size: 20px;
+    }
+  
+  body{
+    background-color:antiquewhite;
+  }
+  h1{
+    font-size: 50px;
+  }
+  h1{
+    color:whitesmoke;
+  }
+  h1{
+    background: darkseagreen;
+  }
+  h2{
+    color:#FAF8F1
+  }
+  h2{
+    background:#C58940
+  }
+ 
+  </style>
+</head>
